@@ -20,7 +20,7 @@ insert into bogota values ('paula', 'paoo123@usb.com', 'psicologia', 19, 1024);
 insert into bogota values ('valentina', 'vale123@usb.com', 'contabilidad', 20, 1025);
 VERIFICAR LOS DATOS ANTERIORMENTE INTRODUCIDOS:
 select * from bogota;
-AGREGAR LAS OTRAS DOS COLUMNAS:
+AGREGAR LAS OTRAS DOS COLUMNAS: 
 alter table bogota add column telefono float;
 alter table bogota add column modo_de_estudio varchar (20);
 INSERTAR DATOS ESPECIFICOS USANDO EL CONDICIONAL 'WHERE':
